@@ -1,7 +1,7 @@
 {
   "name": "cypress-training",
   "scripts": {
-    "test:headless": "cypress run --browser firefox --spec \"cypress/integration/**/*.js\"",
+    "test:headless": "cypress run --browser firefox --spec \"cypress/e2e/**/*.js\"",
     "test:ui": "cypress open"
   },
   "license": "ISC",
