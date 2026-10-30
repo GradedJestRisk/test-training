@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "playwright test"
+  },
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "chai": "^6.3.0"
+  },
+  "engines": {
+    "node": "^26.12.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.12",
+    "http-status-codes": "^2.3.0"
+  }
+}
